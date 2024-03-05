@@ -1,0 +1,51 @@
+body {
+    background-color: #EAF6F6;
+    font-size: 18px;
+    color: #072541;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 5%;
+}
+
+#contact-me-text {
+    margin-top: 25%;
+    color: #11999E;
+}
+
+.icon-section {
+   margin-top: 10%;
+}
+
+label {
+    display: block;
+    margin: 0.75rem 0;
+}
+
+input, textarea {
+    display: block;
+    margin: .2rem 0;
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    height: 1.7rem;
+    border: 1px solid;
+}
+
+#contact-me-form {
+    background-color: #fff;
+    padding: 4%;
+    border-radius: 2%;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 18%;
+    height: 2rem;
+    color: #fff;
+    background-color: #11999E;
+}
